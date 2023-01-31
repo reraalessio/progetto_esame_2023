@@ -1,15 +1,12 @@
-Osja: Geografia e Italiano
-Giorgio: Inglese e Musica
-
-Materie disponibili:
-- Scienze
-- Storia
-- Matematica
-- Tecnologia
-- Sport
-- Arte
-- Epica
-- Francese
-
-
 SCRUM MASTER:
+Luca Capellino
+
+Minigioco1 (facile):
+- Epica:
+	() Storyline con scene statiche e domande, domanda corretta porta a scena successiva, domanda errata rimuove vita e porta a scena precedente, con 0 vite si ritorna all'inizio, appare popup "hai completato x% della storia".
+	
+Minigioco2 (difficile):
+- Scienze/Sport:
+	() Sconfiggi il virus
+	() Esplora corpo
+	() Allenamento muscoli (contare ripetizioni)
