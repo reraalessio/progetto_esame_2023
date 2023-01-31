@@ -1,0 +1,15 @@
+Osja: Geografia e Italiano
+Giorgio: Inglese e Musica
+
+Materie disponibili:
+- Scienze
+- Storia
+- Matematica
+- Tecnologia
+- Sport
+- Arte
+- Epica
+- Francese
+
+
+SCRUM MASTER:
