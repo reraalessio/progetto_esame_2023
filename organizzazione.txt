@@ -1,12 +1,49 @@
-SCRUM MASTER:
-Luca Capellino
+DESCRIZIONE PROGETTO A GRUPPI
 
-Minigioco1 (facile):
-- Epica:
-	() Storyline con scene statiche e domande, domanda corretta porta a scena successiva, domanda errata rimuove vita e porta a scena precedente, con 0 vite si ritorna all'inizio, appare popup "hai completato x% della storia".
-	
-Minigioco2 (difficile):
-- Scienze/Sport:
-	() Sconfiggi il virus
-	() Esplora corpo
-	() Allenamento muscoli (contare ripetizioni)
+Scrum master scelto: Capellino Luca
+
+GIOCO 1
+Nome gioco: YouLisse
+
+Disciplina di interesse: Epica classe III
+
+Regole principali del gioco: il gioco ripercorre la storia e le vicende di Ulisse raccontate nell’Odissea; esso sarà strutturato in scene (livelli) in cui l’utente dovrà sfidare un personaggio relativo ad una parte specifica dell’opera (quiz, drag&drop, associazioni); effettuando le giuste scelte potrà avanzare nei progressi di gioco in modo da seguire la storyline. In caso contrario, se l’utente sbaglia, sarà penalizzato o ‘costretto’ a ricominciare il gioco.
+NB. Ricerca dei capitoli più importanti dell’opera in modo da concentrare il contenuto del gioco sui personaggi principali.
+
+Obiettivi da raggiungere: l’obiettivo per l’utente sarà quello di completare la storia del gioco, memorizzando meglio la trama e i concetti fondamentali dell’opera.
+Dal punto di vista della progettazione e della struttura, gli obiettivi principali saranno quelli di creare una pagina di registrazione per l’utente, in modo che quest’ultimo possa tenere traccia dei progressi e dell’avanzamento del gioco tramite il suo profilo personale (possibilità per l’utente di cancellare i dati di salvataggio e ricominciare il gioco).
+Ricerca di tipologie di giochi che possano essere inerenti all’argomento, facendo in modo che il giocatore si possa immedesimare nella storia, in modo da migliorare le esperienze di gioco e apprendimento.
+Pagina di riepilogo alla fine del gioco e possibilità di aggiungere la percentuale di avanzamento nel gioco raggiunta dall’utente.
+Ogni volta che l'utente loggato supera una scena bisogna salvare il progresso nel DB, in questo modo l'utente ad ogni accesso si ritroverà al punto salvato.
+
+
+
+Modalità di gioco: gioco basato su livelli (semplice cambio di scena). L’utente si troverà davanti una scena che rappresenta un momento importante nella storia dell'Odissea, dovendo superare il "livello" tramite un minigioco che gli permetterà di passare alla scena successiva.
+
+Modalità di calcolo del punteggio: il giocatore parte con un numero prefissato di vite (ES. 10), ogni volta che perde una sfida o sbaglia un quiz, al giocatore verrà sottratta una vita. Il sistema di diminuzione vita avverrà in modo incrementale (ovvero una vita persa alla prima sconfitta, due vite perse alla seconda ecc…).
+Possibilità per l’utente di guadagnare ulteriori vite esplorando il mondo di gioco oppure in seguito alla vittoria contro un avversario.
+BONUS Se l’utente completa il gioco senza perdere nemmeno una vita, possibilità di scaricare l’attestato di “GIOCATORE EPICO”.
+
+
+GIOCO 2
+
+Nome del gioco: Gymce
+
+Disciplina di interesse: Scienze/Educazione Fisica
+
+Regole principali del gioco: il gioco viene ambientato in una palestra/ambiente ideale per svolgere attività fisica. Tale ambiente può essere completamente esplorato dal giocatore e, quando quest'ultimo si avvicina ad un determinato macchinario, si parte con un’introduzione teorica (disciplina di scienze), in cui viene spiegata la parte del corpo presa in evidenza. Questa introduzione può essere seguita da un piccolo quiz che certifichi l’avvenuta lettura da parte del giocatore e verificare la comprensione scientifica della parte del corpo che viene allenata.
+Dopo questa parte, si inizia con l’esercizio vero e proprio, che avviene tramite una combinazione specifica di tasti e che permette all’utente di allenare e potenziare il suo personaggio. A seconda dell’esercizio scelto (difficoltà specificata prima di iniziare tale esercizio) il giocatore accumulerà punti in base alla difficoltà di tale esercizio, in modo che egli possa potenziare il suo avatar in tutte le diverse statistiche presenti (forza, resistenza, velocità, tecnica…).
+Possibilità di far cambiare all’avatar l’aspetto fisico (si passa da personaggio non allenato a uno più in forma e muscoloso).
+AGGIORNAMENTO SUCCESSIVO IN CASO DI MODIFICHE O NUOVE AGGIUNTE.
+
+Obiettivi da raggiungere: Possibilità di personalizzare il personaggio del giocatore all’inizio del gioco (magliette, fasce, scarpe).
+Pagina di login, base dati per memorizzare tutte le informazioni del giocatore con possibilità di riprendere da dove aveva finito.
+Obiettivo di combinare l’attività fisica con la conoscenza del corpo (e quindi conoscenza teorica scientifica).
+
+
+
+
+Modalità di gioco: open world in cui si può esplorare liberamente il mondo di gioco e scegliere gli esercizi da svolgere in ordine casuale, presenti “Boss” da sconfiggere. I boss possono essere sconfitti solo dopo aver raggiunto una determinata forza e i combattimenti si svolgono tramite quiz e/o prove di velocità nella pressione dei tasti.
+
+Modalità di calcolo del punteggio: alla fine di ogni esercizio, le statistiche del personaggio vengono aggiornate, aumentando in base alla qualità con cui si è svolto l’esercizio (ripetizioni eseguite, metri percorsi, salti effettuati ecc…). Possibilità di poter rigiocare l’esercizio in modo da poter migliorare il punteggio ottenuto in precedenza ma, in caso di punteggio inferiore al precedente il personaggio perderà alcune statistiche (nel caso di massimo punteggio raggiunto, esso verrà segnalato a schermo e l’esercizio non potrà più essere giocabile). 
+
